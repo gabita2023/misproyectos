@@ -1,0 +1,190 @@
+/** propiedades globales */
+body {
+    background-color:lavender;
+ }
+ h1 h2 p{
+    font-family: 'Roboto', sans-serif;
+}
+
+ /** seccion con foto  e info */
+div#margen-1 {
+    position: absolute;
+    width: 200px;
+    height: 100vh;
+    left: 150px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    top: 12px;
+    background-color:lightblue;
+    background-color:cadetblue;
+ }
+ .margen-imagen {
+    position:relative;
+    top:15 px;
+    left:3px;
+}
+.margen-detalle{
+    position: relative;
+    left: 2px;
+    
+    /**font-weight: bold;
+    text-align: left;*/
+}
+.margen-detalle p{
+    color:white
+}
+
+/** seccion con datos de contacto e idioma*/
+.margen-contacto {
+    text-align: center;
+    line-height: 5px;
+    color:white;
+}
+
+ div#contacto p{
+    font-weight: bold;
+    text-align: left;
+    color:white
+}
+
+.margen-idioma{
+    position:relative;
+    line-height: 5px;
+    color:white;
+}
+
+ div#lenguajes p{
+    font-weight: bold;
+    text-align: left;
+    color:white
+}
+
+.margen-capaci {
+    text-align: center;
+    line-height: 5px;
+    color:white;
+    font-family: 'Roboto';
+} 
+
+div#capacidad {
+    font-weight: bold;
+    text-align: left;
+    color:white
+}
+
+/** seccion para el cuerpo del cv - formacion - experiencia -*/
+/** estudios*/
+
+.cuerpo-estudios{
+    position: relative;
+    left: 348px;
+    top: 20px;
+    text-align: justify;
+    line-height: 5px;
+    color:darkcyan;
+
+}
+div#formacion {
+    left: 200px;
+    top: 20px;
+    width: 400px;
+    height: 30px;
+    background-color:lightblue;
+}
+div#formacion p {
+    top: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+/** experiencia laboral */
+.cuerpo-exp{
+    position: relative;
+    left: 348px;
+    top: 50px;
+    text-align: justify;
+    line-height: 5px;
+    color:darkcyan;
+
+}
+div#exp-lab{
+    left: 200px;
+    top: 50px;
+    width: 400px;
+    height: 30px;
+    background-color:lightblue;
+}
+div#exp-lab p {
+    top: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/**  cursos*/
+.cuerpo-cursos{
+    position: relative;
+    left: 348px;
+    top: 80px;
+    text-align: justify;
+    line-height: 5px;
+    color:darkcyan;
+
+}
+div#cursos{
+    left: 200px;
+    top: 80px;
+    width: 400px;
+    height: 30px;
+    background-color:lightblue;
+}
+div#cursos p {
+    top: 80px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+ /** section para nombre-apellido y competencia*/
+  div#mi-nombre  {
+    position:relative;
+    width: 750px;
+    height: 70px;
+    left: 348px;
+    margin: 0;
+    padding: 0;
+    top: 12px;
+    background-color:white;
+ }
+ h1{
+    text-align:left;
+    color:darkcyan;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 5px;
+    line-height: 15px; 
+ }
+ div#mi-skill {
+    position:relative;
+    width: 750px;
+    height: 50px;
+    left: 348px;
+    margin: 0;
+    padding: 0;
+    top: 12px;
+    background-color:slateblue;
+   /**text-align:left;
+   border: 2px dashed black;
+    color:darkcyan;
+    font-family: 'Roboto', sans-serif;*/
+ }
+ h2{
+    text-align:center;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 5px;
+    line-height: 15px; 
+ }    
+
+ 
+
